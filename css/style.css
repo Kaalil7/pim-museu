@@ -1,0 +1,279 @@
+@import url(https://db.onlinewebfonts.com/c/6f99c824ca1981d3cf4b7bb6cfc2507b?family=ITC+Eras+Bold);
+@font-face {
+    font-family: "ITC Eras Bold";
+    src: url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.eot");
+    src: url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.svg#ITC Eras Bold")format("svg");
+}
+.centered-text {
+    text-align: center;
+    font-family: "ITC Eras Bold";
+    color: #FFFAD9;
+    margin-top: 150px;
+}
+
+.centered-text p {
+    font-size: 100px; /* Tamanho da fonte */
+    margin: 0; /* Remover margens padrão dos parágrafos */
+}
+.dif-color{
+    color: #FFE7A0;
+}
+/* Estilos para o botão de boas-vindas */
+.welcome-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #FFE7A0;
+    color: #434E9D;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:  "ITC Eras Bold";
+}
+
+.welcome-button:hover {
+    background-color: #f3d271;
+}
+
+/* Estilos para o texto de boas-vindas */
+.welcome-text {
+    font-size: 50px;
+    color: #FFFAD9;
+    margin-top: 20px;
+    font-family: "ITC Eras Bold";
+}
+#check {
+	display: none;
+}
+.checkbtn{
+    display: none;
+}
+.container {
+    margin-top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    
+}
+.quadrado {
+    width: 400px;
+    margin: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.quadrado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quadrado:hover {
+    transform: scale(1.2);
+}
+
+.quadrado-grande {
+    display: none; /* Altere para display flex */
+    align-items: center; /* Centralize verticalmente o conteúdo */
+    width: 90%; /* Ajuste a largura conforme necessário */
+    margin: 0 auto; /* Centralize horizontalmente */
+    padding: 20px;
+    background-color: #434E9D;
+    color: white;
+    font-size: 18px;
+    font-family: "ITC Eras Bold";
+    border-radius: 15px;
+    
+}
+.imagem-grande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #434E9D;
+}
+.imagem-grande {
+    flex: 1; /* A imagem ocupará 1 parte do espaço disponível */
+    padding-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+.texto-grande {
+    background-color: #434E9D;
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    font-family: "ITC Eras Bold";
+    text-align: justify;
+    flex: 2;
+    float: right;
+
+}
+.titulo-grande{
+    display: none;
+}
+.faixa{
+    background-color: white;
+    height: 935px;
+}
+/* Estilizando o botão de fechar */
+.quadrado-grande button {
+    text-decoration: none;
+    color: #FFFAD9;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #FFFAD9;
+    border-radius: 50px;
+    background-color: transparent; /* Remova o fundo transparente */
+    transition: background-color 0.3s ease;
+    font-family: "ITC Eras Bold";
+    cursor: pointer;
+}
+
+.quadrado-grande button:hover {
+    background-color: #FFE7A0;
+    color: #434E9D;
+}
+@media (max-width: 1440px){
+    .centered-text {
+        text-align: center;
+        font-family: "ITC Eras Bold";
+        color: #FFFAD9;
+        margin-top: 150px;
+    }
+    
+    .centered-text p {
+        font-size: 70px; /* Tamanho da fonte */
+        margin: 0; /* Remover margens padrão dos parágrafos */
+    }
+    /* Estilos para o botão de boas-vindas */
+    .welcome-button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #FFE7A0;
+        color: #434E9D;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family:  "ITC Eras Bold";
+    }
+    
+    .welcome-button:hover {
+        background-color: #f3d271;
+        color: #434E9D;
+    }
+    
+    /* Estilos para o texto de boas-vindas */
+    .welcome-text {
+        font-size: 30px;
+        color: #FFFAD9;
+        margin-top: 20px;
+        font-family: "ITC Eras Bold";
+    }
+    .container {
+        margin-top: 210px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+        
+    }
+    .quadrado {
+        width: 400px;
+        margin: 25px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .quadrado img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .quadrado:hover {
+        transform: scale(1.2);
+    }
+    
+    .quadrado-grande {
+        display: flex; /* Altere para display flex */
+        align-items: center; /* Centralize verticalmente o conteúdo */
+        width: 90%; /* Ajuste a largura conforme necessário */
+        margin: 0 auto; /* Centralize horizontalmente */
+        padding: 20px;
+        background-color: #434E9D;
+        color: white;
+        font-size: 18px;
+        font-family: "ITC Eras Bold";
+        border-radius: 15px;
+        flex-direction: column;
+        
+    }
+    .imagem-grande img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #434E9D;
+        border-radius: 20px;
+    }
+    .imagem-grande {
+        flex: 1; /* A imagem ocupará 1 parte do espaço disponível */
+        padding-right: 20px; /* Espaçamento entre a imagem e o texto */
+    }
+    .texto-grande {
+        color: white;
+        font-size: 20px;
+        font-family: "ITC Eras Bold";
+        text-align: justify;
+        flex: 2;
+    }
+    .titulo-grande{
+        color: #FFFAD9;
+        font-size: 35px;
+        text-align: center;
+        display: inline;
+        position: relative; /* Para posicionar o traço */
+    }
+    .titulo-grande::after{
+        content: '';
+        display: block;
+        width: 100px; /* Largura do traço */
+        height: 2px; /* Espessura do traço */
+        background-color: #FFE7A0; /* Cor do traço */
+        position: absolute;
+        bottom: -10px; /* Distância do traço ao texto */
+        left: 50%; /* Centralizar o traço horizontalmente */
+        transform: translateX(-50%); /* Centralizar o traço horizontalmente */
+    }
+    .faixa{
+        background-color: white;
+        height: 935px;
+    }
+    /* Estilizando o botão de fechar */
+    .quadrado-grande button {
+        text-decoration: none;
+        color: #FFFAD9;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid #FFFAD9;
+        border-radius: 50px;
+        background-color: transparent; /* Remova o fundo transparente */
+        transition: background-color 0.3s ease;
+        font-family: "ITC Eras Bold";
+        cursor: pointer;
+    }
+    
+    .quadrado-grande button:hover {
+        background-color: #FFE7A0;
+        color: #434E9D;
+    }
+    .container2{
+        flex-direction: column;
+        background-color: #434E9D;
+        margin-top: 100px;
+    }
+}

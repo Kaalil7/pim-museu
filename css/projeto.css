@@ -1,0 +1,93 @@
+@import url(https://db.onlinewebfonts.com/c/6f99c824ca1981d3cf4b7bb6cfc2507b?family=ITC+Eras+Bold);
+@font-face {
+    font-family: "ITC Eras Bold";
+    src: url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.eot");
+    src: url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6f99c824ca1981d3cf4b7bb6cfc2507b.svg#ITC Eras Bold")format("svg");
+}
+body {
+    margin: 0; /* Remova a margem padrão do corpo */
+    padding: 0; /* Remova o preenchimento padrão do corpo */
+}
+.dif-color{
+    color: #FFE7A0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5 10px rgba(0, 0, 0, 0.1);
+    color: #434E9D;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.mission-values {
+    margin-top: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "ITC Eras Bold";
+}
+
+.container ul {
+    margin-left: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.container li{
+    line-height: 1.5;
+}
+.welcome-button {
+    display: block; /* Alterado para "block" para ocupar a largura total do contêiner */
+    margin: 20px auto 0; /* Define a margem superior para 20px e as laterais para "auto" */
+    background-color: #FFE7A0;
+    color: #434E9D;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "ITC Eras Bold";
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.welcome-button:hover {
+    background-color: #f3d271;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 800px;
+        margin: 20px;
+        margin-left: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Adicionando "px" ao raio */
+        color: #434E9D;
+        font-family: Arial;
+        font-weight: bold;
+        margin-top: 125px;
+        text-align: justify;
+    }
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+    .container ul {
+        margin-left: 0;
+        
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon">
+    <link href="https://db.onlinewebfonts.com/c/6f99c824ca1981d3cf4b7bb6cfc2507b?family=ITC+Eras+Bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Museu Interativo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html"><label class="logo"><img src="imagens/logo-png.png" alt="Logo do Museu"></label></a>
+            <ul class="menu">
+                <li><a href="login.php">Login</a></li>
+                <li><a href="projeto.html">Projeto</a></li>
+                <li><a href="quest.php">Exposições</a></li>
+                <li class="menu-button"><a href="registro.php">Ingressos</a></li>
+                <!-- Adicione o botão de fechar aqui -->
+                <label for="check" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </label>
+            </ul>
+        </nav>
+    </header>
+    <!-- Conteúdo da página aqui -->
+    <div class="centered-text">
+        <p>Explore o <span class="dif-color">passado,</span></p>
+        <p>celebre o <span class="dif-color">presente</span></p>
+        <p>e inspire o <span class="dif-color">futuro!</span></p>
+        <div class="welcome-text">Bem-vindo!</div>
+        <a href="projeto.html" class="welcome-button">Saiba Mais</a>
+    </div>
+    <div class="faixa">
+        <div class="container">
+            <div class="quadrado" onclick="mostrarQuadradosGrandes(1)">
+                <img src="imagens/imigjap.png" alt="115 anos da Imigração Japonesa">
+            </div>
+            <div class="quadrado" onclick="mostrarQuadradosGrandes(2)">
+                <img src="imagens/dumont.png" alt="150 anos de Santos Dumont">
+            </div>
+            <div class="quadrado" onclick="mostrarQuadradosGrandes(3)">
+                <img src="imagens/arteModerna.png" alt="100 anos da Arte Moderna">
+            </div>
+            <div class="quadrado" onclick="mostrarQuadradosGrandes(4)">
+                <img src="imagens/paris2024.png" alt="Jogos Olímpicos de Paris 2024">
+            </div>
+        </div>
+        <div class="quadrado-grande" id="quadrado-grande">
+            <h2 class="titulo-grande" id="titulo-grande"></h2>
+            <div class="imagem-grande">
+                <img src="" alt="Imagem Grande" id="imagem-grande">
+            </div>
+            <div class="texto-grande" id="texto-grande">
+                <!-- O texto será preenchido dinamicamente com JavaScript -->
+            </div>
+            <button onclick="fecharQuadradoGrande()">Fechar</button>
+        </div>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
